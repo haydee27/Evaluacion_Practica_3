@@ -1,0 +1,17 @@
+CREATE TABLE `bd_inventario`.`tb_producto` 
+( `id_producto` INT(9) NOT NULL AUTO_INCREMENT ,
+  `nom_producto` VARCHAR(50) NOT NULL , 
+ `des_producto` VARCHAR(90) NOT NULL , 
+ `stock` DECIMAL(32) NOT NULL , 
+ `precio` DECIMAL(32) NOT NULL , 
+ `unidad_de_medida` VARCHAR(20) NOT NULL , 
+ `estado_producto` TINYINT(1) NOT NULL , 
+ `categoria` INT(5) NOT NULL ,  
+`fecha_entrada` TIMESTAMP NOT NULL ,   
+ PRIMARY KEY  (`id_producto`)) ENGINE = InnoDB;
+
+CREATE TABLE `bd_inventario`.`tb_`
+ ( `id_categoria` INT(5) NOT NULL , 
+ `nom_categoria` VARCHAR(50) NOT NULL ,
+  `estado_categoria` TINYINT(1) NOT NULL ,  
+  PRIMARY KEY  (`id_categoria`)) ENGINE = InnoDB;
