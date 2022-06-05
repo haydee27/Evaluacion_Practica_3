@@ -57,7 +57,8 @@
           </table>
           <input type="reset" value="Borrar">    
           <input type="submit" value="Enviar">   
-        </form></center> 
+        </form>
+    </center> 
     </body>
 </html>
 

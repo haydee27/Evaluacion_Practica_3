@@ -1,4 +1,5 @@
 
+<%@page import="controlador.mostrarC"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -18,6 +19,7 @@
             <li><a href="http://localhost:8084/eva3/mostrarP.jsp">Buscar Registros De Productos</a></li>
              <li><a href="#">Buscar Registros De Categorias</a></li>
         </ul>
+  
         <h1><center>REGISTRO DE DATOS</center></h1>
     <center>
         <table border="3" width="1" cellspacing="4" cellpadding="10">
@@ -75,6 +77,9 @@
                         <td>
                             <input type="submit" value="Buscar Categorias" name="btnBC"/>
                         </td>
+                        <a href="mostrarP">Ver registros</a>
+                        <a href="mostrarC">Ver registros</a>
+             </table>  
                     </center>
                 </tr>
             </form>
